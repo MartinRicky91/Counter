@@ -1,0 +1,49 @@
+body {
+    margin: 40vh auto;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.button-container {
+    word-spacing: 10px;
+    margin-top: 20px;
+}
+
+.decrease {
+    border-radius: 0.60em;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.decrease:hover{
+    background-color: lightgray;
+}
+
+.reset {
+    border-radius: 0.60em;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.reset:hover {
+    background-color: lightgray;
+}
+
+.increase {
+    border-radius: 0.60em;
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+.increase:hover{
+    background-color: lightgray;
+}
+
+#value {
+   font-size: 50px;
+   font-weight: 500; 
+   
+}
